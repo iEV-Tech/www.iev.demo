@@ -17,10 +17,10 @@ git pull
 
 ### copy config to nginx
 ```Terminal
-cp /var/www.iev.demo/nginx/app.isac.vn.conf /etc/nginx/conf.d/
+cp /var/www.iev.demo/nginx/ievapp.batdau.click.conf /etc/nginx/conf.d/
 ```
 
 ### create ssl R3
 ```Terminal
-sudo certbot --nginx -d app.isac.vn
+sudo certbot --nginx -d ievapp.batdau.click
 ```
